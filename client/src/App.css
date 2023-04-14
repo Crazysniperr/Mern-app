@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: rgb(50,54,67);
+  /* background-image: linear-gradient(to bottom, #323643, #4e3f65, #823d75, #bb2f6a, #e42f45); */
+
+}
+
+.App {
+  text-align: center;
+  background: rgb(50,54,67);
+  background: linear-gradient(0deg, rgba(50,54,67,1) 85%, rgb(180, 43, 63) 100%);
+}
+
+
+/* .auth{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.auth-container{
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 50vw;
+  max-width: 450px;
+  padding: 50px 30px 50px 20px;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+  border-radius: 24px ;
+}
+
+.form{
+  width: 350px;
+  background-color: #ffffff;
+  
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  border-radius: 15px;
+}
+
+
+.form-group{
+  margin-bottom: 2rem;
+}
+.form h2{
+  margin-top: 2rem;
+}
+.form-group label{
+  font-size: 1.2rem;
+  margin-right: .5rem;
+}
+.form-group input{
+  height: 1.5rem;
+  width: 12rem;
+  border-radius: 5px;
+  border: .2px solid #000;
+
+}
+
+
+.bttn{
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.bttn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bttn:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 3px rgba(153, 156, 159, 0.4);
+}
+
+
+@media (width <=740px){
+
+  .auth{
+    flex-direction: column;
+  }
+  
+} */
+
+/* .create-recipe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+
+
+
+
+}
+
+.formm{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: #f1fdff;
+
+  padding: 2rem;
+}
+.formm input{
+  height:30px;
+  border-radius: 15px;
+}
+.formm label{
+  font-size: 1.2rem;
+} */
+

@@ -1,0 +1,449 @@
+/* .containerr h1{
+    color: #fff;
+}
+.containerr ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0;
+}
+
+.containerr ul li{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    padding: 16px;
+    width: calc(33.33% - 32px);
+}
+
+@media screen and (max-width: 768px) {
+    
+    .containerr ul li {
+      margin: 16px 0;
+      width: 100%;
+    }
+  } */
+
+
+  .containerr {
+    max-width: 500px;
+    margin: 0 auto;     
+    padding: 0 20px;
+
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .containerr button {
+    background-color: #0077ff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .containerr button:hover {
+    background-color: #0055cc;
+  }
+  
+  .containerr button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  li {
+    background: rgba(255,255,255,0.9);
+    -webkit-backdrop-filter: blur(32px);
+    backdrop-filter: blur(32px);
+    border: 1px solid rgba(255,255,255,0.45);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    transition: transform 0.2s ease-in-out;
+    animation: fadeInUp 0.6s ease-out;
+  }
+  h1{
+    color: #fff;
+    text-transform: capitalize;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    
+  }
+  
+  .instructions {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .ingredients {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .ingredients p {
+    margin: 5px 0;
+  }
+  
+
+   /* .containerr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .containerr h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .containerr ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .containerr li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30rem;
+    height: 40rem;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    animation: fadeInUp 0.6s ease-out;
+  }
+  
+  .containerr li:hover {
+    transform: scale(1.1);
+  }
+  
+  .containerr h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .containerr p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .containerr button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .containerr button:hover {
+    background-color: #333;
+  }
+  
+  .containerr img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* .containerr {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    
+  }
+  
+  .containerr h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .containerr ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .containerr li {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    background-color: #f5f5f5;
+    align-items: center;
+    justify-items: center;
+    transition: transform 0.2s ease-in-out;
+    animation: fadeInUp 0.6s ease-out;
+  }
+  
+  .containerr li:hover {
+    transform: scale(1.05);
+  }
+  
+  .containerr div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .containerr h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .containerr button {
+    background-color: #0077ff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .containerr button:hover {
+    background-color: #0055cc;
+  }
+  
+  .containerr button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .containerr .ingredients {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .containerr .instructions {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .containerr img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  }
+  
+  .containerr p:last-child {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 600px) {
+    .containerr li {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+    }
+  
+    .containerr img {
+      width: 100%;
+      height: 200px;
+    }
+  }
+   */
+   .containerr li:hover {
+    transform: translateY(-10px);
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .containerr .ingredients {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+    text-transform: capitalize;
+  }
+  
+  .containerr .instructions {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* .containerr {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .containerr h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .containerr ul {
+    display: flex;
+    flex-direction: column-reverse
+  }
+  
+  .containerr li {
+    width: 500px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(85, 85, 85, 0.2);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    animation: fadeInUp 0.6s ease-out;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .containerr li:hover {
+    transform: translateY(-10px);
+  }
+  
+  .containerr li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .containerr li div {
+    padding: 20px;
+    background-color: #fff;
+  }
+  .ingredients {
+    text-transform: capitalize;
+  }
+  .containerr li h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .containerr li p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  
+  .containerr li button {
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .containerr li button:hover {
+    background-color: #fff;
+    color: #3f51b5;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .containerr li {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .containerr li {
+      width: 100%;
+    }
+  }
+   */
+   

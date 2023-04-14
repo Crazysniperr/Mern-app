@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 3.5rem;
+    width: 100%;
+    /* border: .2rem solid #ffffff; */
+    background-color: #323643;
+    /* background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */
+    border-bottom: 2px solid #E42f45;
+
+    /* border-radius: 50px; */
+}
+
+.Links{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color:  #ff3a57;
+    font-weight: 350;
+    width: 10rem;
+    border-radius: 50px;
+}
+
+.Links:hover{
+    color: #cf515f;
+    transition: ease-in-out .3s;
+    
+}
+.Links:focus{
+    color: #e1021c;
+    text-shadow: 0px 0px 30px #ffffff;
+}
+
+.logout-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 30px;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .logout-btn:hover {
+    background-color: #ff6b6b;
+  }
+  
+  .logout-btn:active {
+    transform: scale(0.95);
+  }
+  
+  .logout-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(244, 67, 54, 0.5);
+  }
+  
+  .logout-btn:after {
+    content: "\f08b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 10px;
+    display: inline-block;
+    transform: rotate(-20deg);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .logout-btn:hover:after {
+    transform: rotate(10deg);
+  }
+  
