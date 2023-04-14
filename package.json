@@ -5,11 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm start --prefix ../../client ",
-    "dev": "concurrently \"npm start\" \"npm run client\" "
+    "build": "npm install && npm run build-server &&  npm run build",
+    "build-server": "echo 'Building server...' && npm run compile-server",
+    "compile-server": "echo 'Compiling server...'",
   },
   "author": "",
   "license": "ISC",
