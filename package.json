@@ -8,7 +8,7 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm start --prefix ../../client ",
-    "build": "npm install && npm run build-server",
+    "build": "npm install && npm run build-server &&  npm run build",
     "build-server": "echo 'Building server...' && npm run compile-server",
     "compile-server": "echo 'Compiling server...'",
   },
